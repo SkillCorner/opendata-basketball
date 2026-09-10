@@ -1,0 +1,202 @@
+[
+  {
+    "id": 114243,
+    "date_time": "2025-10-11T19:00:00Z",
+    "home_team": {
+      "id": 1330,
+      "name": "BAXI Manresa"
+    },
+    "away_team": {
+      "id": 1319,
+      "name": "Coviran Granada"
+    },
+    "home_score": 83,
+    "away_score": 68,
+    "competition_id": 8,
+    "competition_name": "Liga ACB",
+    "season_id": 51,
+    "competition_edition_id": 211,
+    "season": "2025-2026",
+    "status": "closed"
+  },
+  {
+    "id": 114234,
+    "date_time": "2025-10-18T19:00:00Z",
+    "home_team": {
+      "id": 1331,
+      "name": "Casademont Zaragoza"
+    },
+    "away_team": {
+      "id": 1322,
+      "name": "Leche Rio Breogan"
+    },
+    "home_score": 84,
+    "away_score": 88,
+    "competition_id": 8,
+    "competition_name": "Liga ACB",
+    "season_id": 51,
+    "competition_edition_id": 211,
+    "season": "2025-2026",
+    "status": "closed"
+  },
+  {
+    "id": 114169,
+    "date_time": "2025-12-14T11:30:00Z",
+    "home_team": {
+      "id": 1334,
+      "name": "CB UCAM Murcia"
+    },
+    "away_team": {
+      "id": 1336,
+      "name": "Club Joventut Badalona"
+    },
+    "home_score": 80,
+    "away_score": 77,
+    "competition_id": 8,
+    "competition_name": "Liga ACB",
+    "season_id": 51,
+    "competition_edition_id": 211,
+    "season": "2025-2026",
+    "status": "closed"
+  },
+  {
+    "id": 114099,
+    "date_time": "2026-01-31T20:00:00Z",
+    "home_team": {
+      "id": 1315,
+      "name": "Basquet Girona"
+    },
+    "away_team": {
+      "id": 1316,
+      "name": "San Pablo Burgos"
+    },
+    "home_score": 77,
+    "away_score": 71,
+    "competition_id": 8,
+    "competition_name": "Liga ACB",
+    "season_id": 51,
+    "competition_edition_id": 211,
+    "season": "2025-2026",
+    "status": "closed"
+  },
+  {
+    "id": 114086,
+    "date_time": "2026-02-08T17:00:00Z",
+    "home_team": {
+      "id": 1328,
+      "name": "Dreamland Gran Canaria"
+    },
+    "away_team": {
+      "id": 1326,
+      "name": "Bitci Baskonia"
+    },
+    "home_score": 75,
+    "away_score": 97,
+    "competition_id": 8,
+    "competition_name": "Liga ACB",
+    "season_id": 51,
+    "competition_edition_id": 211,
+    "season": "2025-2026",
+    "status": "closed"
+  },
+  {
+    "id": 178442,
+    "date_time": "2026-03-21T18:00:00Z",
+    "home_team": {
+      "id": 1332,
+      "name": "BC MoraBanc Andorra"
+    },
+    "away_team": {
+      "id": 1335,
+      "name": "Bilbao Basket"
+    },
+    "home_score": 98,
+    "away_score": 102,
+    "competition_id": 8,
+    "competition_name": "Liga ACB",
+    "season_id": 51,
+    "competition_edition_id": 211,
+    "season": "2025-2026",
+    "status": "closed"
+  },
+  {
+    "id": 179612,
+    "date_time": "2026-04-12T10:30:00Z",
+    "home_team": {
+      "id": 1339,
+      "name": "Malaga"
+    },
+    "away_team": {
+      "id": 1325,
+      "name": "Valencia BC"
+    },
+    "home_score": 89,
+    "away_score": 96,
+    "competition_id": 8,
+    "competition_name": "Liga ACB",
+    "season_id": 51,
+    "competition_edition_id": 211,
+    "season": "2025-2026",
+    "status": "closed"
+  },
+  {
+    "id": 184439,
+    "date_time": "2026-04-19T17:00:00Z",
+    "home_team": {
+      "id": 1338,
+      "name": "Real Madrid"
+    },
+    "away_team": {
+      "id": 1333,
+      "name": "Lenovo Tenerife"
+    },
+    "home_score": 90,
+    "away_score": 95,
+    "competition_id": 8,
+    "competition_name": "Liga ACB",
+    "season_id": 51,
+    "competition_edition_id": 211,
+    "season": "2025-2026",
+    "status": "closed"
+  },
+  {
+    "id": 188630,
+    "date_time": "2026-05-03T17:00:00Z",
+    "home_team": {
+      "id": 1340,
+      "name": "BC Barcelona"
+    },
+    "away_team": {
+      "id": 1328,
+      "name": "Dreamland Gran Canaria"
+    },
+    "home_score": 91,
+    "away_score": 69,
+    "competition_id": 8,
+    "competition_name": "Liga ACB",
+    "season_id": 51,
+    "competition_edition_id": 211,
+    "season": "2025-2026",
+    "status": "closed"
+  },
+  {
+    "id": 191313,
+    "date_time": "2026-05-29T18:30:00Z",
+    "home_team": {
+      "id": 1322,
+      "name": "Leche Rio Breogan"
+    },
+    "away_team": {
+      "id": 1331,
+      "name": "Casademont Zaragoza"
+    },
+    "home_score": 94,
+    "away_score": 95,
+    "competition_id": 8,
+    "competition_name": "Liga ACB",
+    "season_id": 51,
+    "competition_edition_id": 211,
+    "season": "2025-2026",
+    "status": "closed"
+  }
+]
