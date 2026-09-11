@@ -6,6 +6,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.egg-info/
 venv/
 .env
 .pytest_cache/
@@ -17,6 +18,14 @@ venv/
 # Project-specific
 archive/
 notebooks/exploratory/
+AGENT.md
+TASK.md
+
+# Pipeline artifacts (generated, not committed)
+outputs/
+models/
+*.parquet
+*.pt
 
 .agents/
 

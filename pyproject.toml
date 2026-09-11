@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opendata-basketball"
+version = "0.1.0"
+description = "SkillCorner Basketball Analytics Cup — Full Spectrum Player Value (BAV + SCI)"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+authors = [
+    { name = "Carlos Vinicius" }
+]
+dependencies = [
+    "polars>=1.0.0,<2.0.0",
+    "floodlight>=1.2.0",
+    "unravelsports>=1.2.0",
+    "torch>=2.0.0,<3.0.0",
+    "torch-geometric>=2.0.0,<3.0.0",
+    "xgboost>=2.0.0,<3.0.0",
+    "shap>=0.40.0,<1.0.0",
+    "scikit-learn>=1.4.0,<2.0.0",
+    "mplbasketball",
+    "skillcornerviz",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0,<9.0.0",
+    "pytest-cov>=4.0.0",
+    "ruff>=0.4.0,<1.0.0",
+    "mypy>=1.10.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # flake8-bugbear
+    "UP",  # pyupgrade
+]
+ignore = [
+    "E501",  # line too long (handled by formatter)
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-v --tb=short"
